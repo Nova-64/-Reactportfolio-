@@ -1,0 +1,33 @@
+.blog-page {
+    padding: 200px 20px 40px; /* push down from top */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.6); /* semi-transparent black behind posts */
+    overflow-y: auto;
+}
+
+.blog-post {
+    background: rgba(0, 0, 0, 0.7); /* individual post background */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease;
+}
+
+    .blog-post:hover {
+        transform: scale(1.01);
+    }
+
+    .blog-post h3 {
+        margin: 0;
+        color: #ffffff;
+    }
+
+    .blog-post p {
+        margin-top: 5px;
+        color: #dddddd;
+        font-size: 0.95rem;
+    }
